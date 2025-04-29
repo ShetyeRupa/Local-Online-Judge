@@ -1,0 +1,12 @@
+[
+    {
+        "key": "ctrl+shift+b",
+        "command": "workbench.action.tasks.build",
+        "when": "editorLangId == c"
+    },
+    {
+        "key": "ctrl+shift+j",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Run Online Judge"
+    }
+]

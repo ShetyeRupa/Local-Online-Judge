@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "ms-vscode.cpptools",
+        "vscjava.vscode-java-pack",
+        "formulahendry.code-runner",
+        "christian-kohler.path-intellisense",
+        "aaron-bond.better-comments",
+        "usernamehw.errorlens",
+        "shan.code-settings-sync"
+    ]
+}

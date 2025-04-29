@@ -1,0 +1,9 @@
+{
+    "id": "1",
+    "title": "Sum of Two Numbers",
+    "test_cases": [
+        {"input": "2 3", "output": "5"},
+        {"input": "-5 8", "output": "3"},
+        {"input": "0 0", "output": "0"}
+    ]
+}

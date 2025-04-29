@@ -1,0 +1,9 @@
+{
+    "id": "4",
+    "title": "Factorial Calculation",
+    "test_cases": [
+        {"input": "5", "output": "120"},
+        {"input": "0", "output": "1"},
+        {"input": "3", "output": "6"}
+    ]
+}

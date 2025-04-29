@@ -1,0 +1,9 @@
+{
+    "id": "3",
+    "title": "Even or Odd Check",
+    "test_cases": [
+        {"input": "4", "output": "Even"},
+        {"input": "7", "output": "Odd"},
+        {"input": "0", "output": "Even"}
+    ]
+}

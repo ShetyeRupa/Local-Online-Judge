@@ -1,0 +1,9 @@
+{
+    "id": "6",
+    "title": "Nth Fibonacci Number",
+    "test_cases": [
+        {"input": "0", "output": "0"},
+        {"input": "5", "output": "5"},
+        {"input": "7", "output": "13"}
+    ]
+}

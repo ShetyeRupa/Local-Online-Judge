@@ -1,0 +1,15 @@
+{
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "python": "python -u",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt.exe -Wall -Wextra && $dir$fileNameWithoutExt.exe",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt.exe -Wall -Wextra -std=c++17 && $dir$fileNameWithoutExt.exe",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt"
+    },
+    "C_Cpp.default.compilerPath": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe",
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.intelliSenseMode": "windows-gcc-x64"
+}

@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Current C File",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-Wall",
+                "-Wextra",
+                "-g"
+            ],
+            "group": "build",
+            "problemMatcher": ["$gcc"],
+            "detail": "Debug-enabled build for C files"
+        },
+        {
+            "label": "Run Online Judge",
+            "type": "shell",
+            "command": "python",
+            "args": ["${workspaceFolder}/local_online_judge.py"],
+            "group": "test",
+            "presentation": {
+                "focus": true,
+                "panel": "dedicated"
+            }
+        }
+    ]
+}
